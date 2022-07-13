@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat-Medium 500', sans-serif;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Montserrat-Bold" !important;
+}
+
+h3{
+    font-weight: 800 !important;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.section-heading{
+    font-weight: 800;
+    font-size: 3rem; 
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white{
+    background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar{
+    padding:0rem 0rem 4.5rem !important;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu Condensed', sans-serif !important;
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+}
+
+.navItem{
+    padding: 0 20px;
+}
+
+.navLink{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+
+}
+
+/* Download Buttons */
+.DownloadBtn{
+    margin: 5% 2% 5% 0;
+}
+
+/* Title Image */
+.img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Title-Section */
+#Title .container-fluid{
+    text-align: left;
+    padding: 2% 10% 10%;
+}
+
+/* Feature-Section */
+.feature-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#features{
+
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+    font-weight: 700 !important;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+.testimonial-text{
+    font-weight: 800;
+    padding: 0 15%;
+    font-size: 3rem;  
+    line-height: 1.5; 
+}
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonialimg{
+    width: 15%;
+    border-radius:100% ;
+    margin: 1.4rem;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+width: 15%;
+margin:1.4rem 1.4rem 3rem;
+}
+
+/* Pricing Section */
+.price-text{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+#pricing{
+    padding:100px;
+}
+
+.pricing-col{
+    padding: 4% 2% ;
+}
+
+/* Cta Section */
+
+/* Footer Section */
+.footericon{
+    margin: 1%;
+
+}
+
+/* MediaBreakpoint Section */
+@media (max-width:1028px){
+    .img{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .row{
+        text-align: center;
+    }
+}
